@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar > *{
+  color: navy;
+  margin: 2rem 2rem 2rem 5rem;
+  list-style-type: none;
+}
+
+.button-list{
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.button-list > *{
+  border: 2px solid navy;
+  border-radius: 3px;
+  color: navy;
+  margin: 0rem 1rem;
+}
+
+.post {
+  border: 2px solid navy;
+  flex: 0 0 30%;
+  margin: 1rem;
+}
+
+.post > * {
+  border-bottom: 2px solid navy;
+  padding: 1rem;
+}
+
+.post-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.username{
+  display: flex;
+  align-self: flex-start;
+}
+
+.description{
+  display: flex;
+  align-self: flex-start;
+
+}
+
+.login-sign-up > *{
+  margin: 1rem;
+}
+
+.make-post > *{
+  margin: 1rem;
+}
