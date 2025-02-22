@@ -29,6 +29,10 @@ function Post(props){
           value={description}
           onChange={handleChange}
         />
+        <input 
+          type="file"
+          accept="image/png, image/jpeg" />
+         
         <button type="submit">
           Post
         </button>
